@@ -144,6 +144,9 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0(@types/react@18.3.11)(react@18.3.1)(use-sync-external-store@1.2.2(react@18.3.1))
     devDependencies:
+      '@tailwindcss/typography':
+        specifier: ^0.5.15
+        version: 0.5.15(tailwindcss@3.4.17)
       '@tiptap/core':
         specifier: ^2.9.1
         version: 2.9.1(@tiptap/pm@2.11.0)
@@ -171,6 +174,12 @@ importers:
       tailwind-config:
         specifier: workspace:*
         version: link:../../packages/tailwind-config
+      tailwind-scrollbar:
+        specifier: ^3.1.0
+        version: 3.1.0(tailwindcss@3.4.17)
+      tailwindcss-animate:
+        specifier: ^1.0.7
+        version: 1.0.7(tailwindcss@3.4.17)
       tsconfig:
         specifier: workspace:*
         version: link:../../packages/tsconfig
